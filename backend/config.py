@@ -3,3 +3,8 @@
 # **¡IMPORTANTE!** Reemplazar este placeholder por el URL final provisto por el rol de Base de Datos.
 
 DATABASE_URL = "postgresql://user:password@localhost/neocare_db"
+
+# Configuración para JWT
+SECRET_KEY = "your-secret-key-here-change-in-production"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
